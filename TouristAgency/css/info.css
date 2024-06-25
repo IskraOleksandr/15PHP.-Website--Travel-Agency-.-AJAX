@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/**{*/
+/*    outline: solid #3c763d;*/
+/*}*/
+
+.well {
+    text-align: justify;
+}
+
+main > h2 {
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    background-color: #ddf;
+}
+
+@media screen and (min-width: 950px) {
+
+    body {
+        background: linear-gradient(122deg,
+        rgba(172, 197, 227, 1) 0%,
+        rgba(227, 231, 243, 1) 51%,
+        rgb(187, 202, 236) 80%,
+        rgba(145, 163, 209, 1) 99%) no-repeat center center fixed;
+        /*background: url(../images/back3.jpg);*/
+    }
+
+    main {
+        width: 900px;
+        max-height: 600px;
+        margin: 50px auto;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    main > p {
+        overflow-y: scroll;
+    }
+
+    main > h2 {
+        color: #145FBA;
+    }
+
+    .gallery {
+        height: 400px;
+    }
+
+    footer {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0);
+        color: #fff;
+        font-size: 13px;
+        text-shadow: 2px 2px 5px #000;
+    }
+}
+
+@media (min-width: 992px) {
+    .well {
+        margin-top: 400px;
+        margin-left: -105%;
+        margin-right: 42%;
+    }
+
+    .h3_head_1 {
+        margin-left: -25%;
+    }
+
+    .h3_head_2 {
+        margin-left: 45%;
+    }
+
+    .lab {
+        margin-left: 50%;
+    }
+
+    #img {
+        margin-left: 50%;
+    }
+}
+
+.stars {
+    margin-top: -24px;
+    width: 23px;
+}
+
+#dv1 {
+    margin-left: 20px;
+}
+
+#h3_1 {
+    margin-top: -2px;
+}
+
+#spn1 {
+    font-size: 12px;
+}

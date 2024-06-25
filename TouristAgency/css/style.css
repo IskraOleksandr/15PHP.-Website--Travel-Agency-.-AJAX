@@ -1,0 +1,130 @@
+.head {
+    background: url(../images/back.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.head form {
+    width: 200px;
+    float: right;
+}
+
+.head h4, h5 {
+    background: #fff;
+    padding: 5px;
+    margin: 0;
+}
+
+.head h4 > span {
+    color: #04d;
+}
+
+.head form input {
+    width: 200px;
+    margin-top: 2px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ddf;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#table1 img {
+    width: 100px;
+}
+
+.phead {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row > div {
+    height: 300px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#formhotel textarea {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+#formhotel select, #formcity select {
+    height: 26px;
+}
+
+#formhotel input[type="radio"] {
+    margin-left: 5px;
+}
+
+.left {
+    background: #ffd;
+}
+
+.right {
+    background: #dff;
+}
+
+#text_area {
+    margin-top: 20px;
+    width: 480px;
+}
+
+#btn {
+    margin-top: 20px;
+    left: -400px;
+    width: 160px;
+    margin-bottom: 100px;
+}
+
+#frm {
+    margin-top: -20px;
+}
+
+#select_n {
+    position: absolute;
+    width: 275px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#h3_2 {
+    margin-top: -70px;
+}
+
+#h4_1 {
+    position: absolute;
+    left: 0;
+}
+
+#h4_2 {
+    position: absolute;
+    right: 90px;
+}
+
+#spn2 {
+    color: green;
+}
+
+#dv2 {
+    margin-left: 60%;
+}
+
+#dv3 {
+    height: 33px;
+}
+
+#inp {
+    height: 22px;
+}
